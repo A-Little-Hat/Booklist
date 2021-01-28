@@ -1,4 +1,6 @@
 var booklist = []
+document.getElementById("book-all-details").style.display="none"
+
 if (localStorage.getItem('books') === null) {
 
 } else {
